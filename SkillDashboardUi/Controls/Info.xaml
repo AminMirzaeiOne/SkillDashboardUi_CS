@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:SkillDashboardUi.Controls"
              xmlns:fa="http://schemas.fontawesome.io/icons/" 
              mc:Ignorable="d" Name="info">
-    <Grid>
+    <StackPanel>
             
-    </Grid>
+    </StackPanel>
 </UserControl>
