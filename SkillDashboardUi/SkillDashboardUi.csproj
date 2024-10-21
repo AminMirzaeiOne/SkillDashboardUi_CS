@@ -68,6 +68,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Controls\Lesson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,6 +82,9 @@
     </Compile>
     <Compile Include="Controls\Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Lesson.xaml.cs">
+      <DependentUpon>Lesson.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
