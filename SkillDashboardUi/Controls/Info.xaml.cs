@@ -21,6 +21,8 @@ namespace SkillDashboardUi.Controls
     public partial class Info : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(Info));
+        public static readonly DependencyProperty DescProperty = DependencyProperty.Register("Desc", typeof(string), typeof(Info));
+
 
         public Info()
         {
