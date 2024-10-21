@@ -36,6 +36,12 @@ namespace SkillDashboardUi.Controls
             set { SetValue(DescProperty, value); }
         }
 
+        public Brush Color
+        {
+            get { return (Brush)GetValue(ColorProperty); }
+            set { SetValue(ColorProperty, value); }
+        }
+
         public Info()
         {
             InitializeComponent();
