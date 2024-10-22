@@ -19,5 +19,5 @@ Designing the user interface of a skill dashboard program in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/e2c7b0aa-b2c9-4e27-b047-20c4c8ce17b0">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/9af1f05d-045a-4652-9f04-3e8e314f2618">
 <img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/2e0bc579-5726-4fa2-868a-f6f4541be0ba">
