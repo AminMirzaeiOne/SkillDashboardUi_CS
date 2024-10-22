@@ -20,6 +20,8 @@ namespace SkillDashboardUi.Controls
     /// </summary>
     public partial class Lesson : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(Lesson));
+
         public Lesson()
         {
             InitializeComponent();
