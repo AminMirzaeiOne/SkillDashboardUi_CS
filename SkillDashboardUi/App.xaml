@@ -89,6 +89,13 @@
             <Setter Property="FontWeight" Value="SemiBold" />
         </Style>
 
+        <Style x:Key="desc" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#B1B1B1" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Margin" Value="0 5 0 0" />
+        </Style>
+
 
 
     </Application.Resources>
