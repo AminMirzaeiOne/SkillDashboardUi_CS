@@ -29,6 +29,14 @@
             </Style.Triggers>
         </Style>
 
-        
+        <Style x:Key="menuButtonTop" TargetType="Button" BasedOn="{StaticResource menuButton}">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="Margin" Value="0 20 0 0" />
+            <Setter Property="Width" Value="45" />
+            <Setter Property="Height" Value="45" />
+        </Style>
+
+
     </Application.Resources>
 </Application>
