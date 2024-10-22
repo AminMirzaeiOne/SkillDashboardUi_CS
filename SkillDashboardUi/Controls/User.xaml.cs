@@ -36,6 +36,12 @@ namespace SkillDashboardUi.Controls
             set { SetValue(NumProperty, value); }
         }
 
+        public ImageSource Source
+        {
+            get { return (ImageSource)GetValue(SourceProperty); }
+            set { SetValue(SourceProperty, value); }
+        }
+
         public User()
         {
             InitializeComponent();
