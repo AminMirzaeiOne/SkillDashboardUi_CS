@@ -7,6 +7,15 @@
              mc:Ignorable="d" 
              Name="user">
     <Border CornerRadius="5">
-            
+        <Border.Style>
+            <Style TargetType="Border">
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#dfdfdf" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Border.Style>
+        
     </Border>
 </UserControl>
