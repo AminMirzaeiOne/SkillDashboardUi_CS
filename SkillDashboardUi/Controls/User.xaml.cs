@@ -30,6 +30,12 @@ namespace SkillDashboardUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public string Num
+        {
+            get { return (string)GetValue(NumProperty); }
+            set { SetValue(NumProperty, value); }
+        }
+
         public User()
         {
             InitializeComponent();
