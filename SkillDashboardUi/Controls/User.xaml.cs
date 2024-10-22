@@ -24,6 +24,11 @@ namespace SkillDashboardUi.Controls
         public static readonly DependencyProperty NumProperty = DependencyProperty.Register("Num", typeof(string), typeof(User));
         public static readonly DependencyProperty SourceProperty = DependencyProperty.Register("Source", typeof(ImageSource), typeof(User));
 
+        public string Title
+        {
+            get { return (string)GetValue(TitleProperty); }
+            set { SetValue(TitleProperty, value); }
+        }
 
         public User()
         {
