@@ -213,9 +213,9 @@
                         <Separator Foreground="#787C86" Height="0.7" Margin="0 10 0 10"/>
 
                         <!--Team-->
-                        <!--<uc:User Title="Karim Ballard" Num="87" Source="/Images/p2.jpg"/>
+                        <uc:User Title="Karim Ballard" Num="87" Source="/Images/p2.jpg"/>
                         <uc:User Title="John Doe" Num="76" Source="/Images/p3.jpg"/>
-                        <uc:User Title="Sam Vodkina" Num="64" Source="/Images/p4.jpg"/>-->
+                        <uc:User Title="Sam Vodkina" Num="64" Source="/Images/p4.jpg"/>
                     </StackPanel>
 
                     <!--Skill Section-->
@@ -251,9 +251,9 @@
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <!--<uc:Info Color="#6254F9" Title="Graphic Design" Desc="35%"/>
+                                <uc:Info Color="#6254F9" Title="Graphic Design" Desc="35%"/>
                                 <uc:Info Grid.Column="1" Color="#FFBE41" Title="UX / UI" Desc="3%"/>
-                                <uc:Info Grid.Column="2" Color="#DFE931" Title="Management" Desc="39%"/>-->
+                                <uc:Info Grid.Column="2" Color="#DFE931" Title="Management" Desc="39%"/>
                             </Grid>
                         </StackPanel>
                     </Border>
@@ -268,10 +268,10 @@
                     <Run>this week</Run>
                             </TextBlock>
 
-                            <!--<uc:Lesson Color="#664BFB" Title="Advanced Creative Technique" Desc="Graphic Design, Photoshop | 35:12 m" Margin="0 10 0 0"/>
+                            <uc:Lesson Color="#664BFB" Title="Advanced Creative Technique" Desc="Graphic Design, Photoshop | 35:12 m" Margin="0 10 0 0"/>
                             <uc:Lesson Color="#FFBE41" Title="Customer Journey Mapping" Desc="UX / UI, Architecture | 22:43 m"/>
                             <uc:Lesson Color="#DFE931" Title="Building Remote Teams" Desc="Management, Jira | 1:35 h"/>
-                            <uc:Lesson Color="#FC91A6" Title="Figma Workshop" Desc="Professional Tools | 1:12 h"/>-->
+                            <uc:Lesson Color="#FC91A6" Title="Figma Workshop" Desc="Professional Tools | 1:12 h"/>
 
                             <Button Style="{StaticResource whiteButton}">
                                 View Learning Plan
