@@ -83,6 +83,12 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="title" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#2F394E" />
+            <Setter Property="FontSize" Value="22" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+
 
 
     </Application.Resources>
