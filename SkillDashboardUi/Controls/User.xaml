@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:SkillDashboardUi.Controls"
              mc:Ignorable="d" 
              Name="user">
-    <Grid>
+    <Border>
             
-    </Grid>
+    </Border>
 </UserControl>
