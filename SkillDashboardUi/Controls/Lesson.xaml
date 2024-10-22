@@ -16,5 +16,18 @@
                 </Style.Triggers>
             </Style>
         </Border.Style>
+
+        <StackPanel Orientation="Horizontal">
+            <Border Background="{Binding Path=Color,ElementName=lesson}" CornerRadius="50" Width="40" Height="40" Margin="8 0 0 0">
+                <fa:ImageAwesome Icon="Play" Width="12" Height="12" Margin="3 0 0 0" Foreground="#ffffff"/>
+            </Border>
+
+            <StackPanel Margin="10 0 0 0">
+                <TextBlock Text="{Binding Path=Title,ElementName=lesson}" Foreground="#303A4F" FontWeight="SemiBold" FontSize="13"/>
+                <TextBlock Text="{Binding Path=Desc,ElementName=lesson}" Foreground="#ACB0B8" FontSize="11" Margin="0 3 0 0"/>
+            </StackPanel>
+        </StackPanel>
+        
+        
     </Border>
 </UserControl>
