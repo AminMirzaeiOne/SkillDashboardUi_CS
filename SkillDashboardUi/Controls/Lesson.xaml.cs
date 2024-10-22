@@ -24,6 +24,11 @@ namespace SkillDashboardUi.Controls
         public static readonly DependencyProperty DescProperty = DependencyProperty.Register("Desc", typeof(string), typeof(Lesson));
         public static readonly DependencyProperty ColorProperty = DependencyProperty.Register("Color", typeof(Brush), typeof(Lesson));
 
+        public string Title
+        {
+            get { return (string)GetValue(TitleProperty); }
+            set { SetValue(TitleProperty, value); }
+        }
 
         public Lesson()
         {
