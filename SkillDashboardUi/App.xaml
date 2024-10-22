@@ -96,6 +96,29 @@
             <Setter Property="Margin" Value="0 5 0 0" />
         </Style>
 
+        <Style x:Key="whiteButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="#9CA2B3" />
+            <Setter Property="Height" Value="40" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="3">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#dfdfdf" />
+                    <Setter Property="Foreground" Value="#666666" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
 
 
     </Application.Resources>
