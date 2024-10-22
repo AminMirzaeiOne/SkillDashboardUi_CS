@@ -49,6 +49,13 @@
             <Setter Property="TextAlignment" Value="Center" />
         </Style>
 
+        <Style x:Key="infoText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#979CA7" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0 5 0 5" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
