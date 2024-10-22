@@ -15,6 +15,42 @@
             <ColumnDefinition Width="75"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        
+
+        <!--Main Menu-->
+        <Border Background="#f4f4f4" CornerRadius="30 0 0 30" BorderThickness="0 0 1 0" BorderBrush="#d9d9d9">
+            <Grid>
+                <!--Top Button-->
+                <Button Style="{StaticResource menuButtonTop}">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="10" ShadowDepth="5" Opacity="0.1"/>
+                    </Button.Effect>
+                    <TextBlock Text="Sz" FontSize="20" Margin="0 0 0 2" FontWeight="Bold" Foreground="#FF869E"/>
+                </Button>
+
+                <!--Menu Buttons-->
+                <StackPanel VerticalAlignment="Center">
+                    <Button Style="{StaticResource menuButton}">
+                        <fa:ImageAwesome Icon="Book" Style="{StaticResource menuButtonIcon}"/>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}">
+                        <fa:ImageAwesome Icon="PieChart" Style="{StaticResource menuButtonIcon}"/>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}">
+                        <fa:ImageAwesome Icon="Comment" Style="{StaticResource menuButtonIcon}"/>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}">
+                        <fa:ImageAwesome Icon="Cog" Style="{StaticResource menuButtonIcon}"/>
+                    </Button>
+                </StackPanel>
+
+                <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" Margin="0 0 0 15">
+                    <fa:ImageAwesome Icon="PowerOff" Style="{StaticResource menuButtonIcon}"/>
+                </Button>
+            </Grid>
+        </Border>
+
     </Grid>
 </Window>
