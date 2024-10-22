@@ -46,7 +46,7 @@
                     </Button>
                 </StackPanel>
 
-                <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" Margin="0 0 0 15">
+                <Button x:Name="btnExit" Style="{StaticResource menuButton}" VerticalAlignment="Bottom" Margin="0 0 0 15" Click="btnExit_Click">
                     <fa:ImageAwesome Icon="PowerOff" Style="{StaticResource menuButtonIcon}"/>
                 </Button>
             </Grid>
@@ -81,7 +81,7 @@
                         <Border CornerRadius="100" Background="#ffffff" Width="145" Height="145" Padding="5">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="/Images/p1.jpg"/>
+                                    <ImageBrush ImageSource="/Images/AminMirzaeiProfile.png"/>
                                 </Ellipse.Fill>
                             </Ellipse>
                         </Border>
