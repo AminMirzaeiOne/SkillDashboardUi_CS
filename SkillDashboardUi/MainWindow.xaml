@@ -11,6 +11,10 @@
         AllowsTransparency="True" Background="Transparent" WindowStyle="None"
         Height="720" Width="1130">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         
     </Grid>
 </Window>
